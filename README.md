@@ -27,7 +27,7 @@ Featuring an AI-powered chat assistant (powered by Google Gemini) and a dynamica
 
 You **do not** need to edit HTML or React components to update the content.
 
-1.  Open `src/resume.json`.
+1.  Open `resume.json` in the root directory.
 2.  Update the JSON fields (experience, skills, projects, etc.).
 3.  Save the file.
 4.  Both the website and the markdown view will automatically update.
@@ -59,12 +59,12 @@ You **do not** need to edit HTML or React components to update the content.
 ## 📂 Project Structure
 
 ```
-src/
 ├── components/        # React components (Hero, Experience, Projects...)
 ├── services/          # Gemini AI service integration
 ├── utils/             # Helpers (Markdown generator, Icon mapper)
 ├── resume.json        # SINGLE SOURCE OF TRUTH for all content
 ├── App.tsx            # Main application layout
 ├── index.css          # Tailwind v4 configuration
+├── index.tsx          # Application entry point
 └── types.ts           # TypeScript definitions
 ```
