@@ -1,0 +1,8 @@
+{
+  "name": "Professional AI Portfolio & Resume",
+  "description": "A high-end personal website featuring a markdown-based resume viewer, PDF export capabilities, and a Gemini-powered career assistant for recruiters.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
