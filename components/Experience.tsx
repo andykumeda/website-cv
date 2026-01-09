@@ -2,6 +2,8 @@ import React from 'react';
 import { Briefcase } from 'lucide-react';
 import resumeData from '../resume.json';
 
+import { renderLinks } from '../utils/renderLinks';
+
 export const Experience: React.FC = () => {
     return (
         <section>
@@ -19,7 +21,7 @@ export const Experience: React.FC = () => {
                             <div className="flex flex-wrap justify-between items-start gap-2 mb-4">
                                 <div>
                                     <h3 className="font-bold text-lg text-slate-900 group-hover:text-blue-700 transition-colors">{job.title}</h3>
-                                    <p className="text-blue-700 font-semibold">{job.company}</p>
+                                    <p className="text-blue-700 font-semibold">{renderLinks(job.company)}</p>
                                 </div>
                                 <span className="text-xs font-bold text-slate-400 bg-slate-50 border border-slate-100 px-3 py-1 rounded-full">{job.date}</span>
                             </div>

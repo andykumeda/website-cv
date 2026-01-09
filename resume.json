@@ -1,7 +1,7 @@
 {
     "profile": {
         "name": "Andy Kumeda",
-        "title": "Senior Cisco Network Engineer | Network Architect",
+        "title": "Senior Network Engineer | Network Architect",
         "ccie": "CCIE #3406",
         "email": "andy@kumeda.com",
         "phone": "(310) 493-1793",
@@ -9,11 +9,11 @@
         "linkedin": "https://www.linkedin.com/in/andykumeda/",
         "github": "https://github.com/andykumeda"
     },
-    "summary": "Senior Network Engineer and architect with 25+ years designing, deploying, and operating large-scale Cisco networks in enterprise and clinical environments. Hands-on expertise with Catalyst 9000 platforms, SD-Access / ISE, routing & switching (OSPF, BGP, EIGRP), MPLS, QoS, VXLAN, NAC, VPNs, and packet-level traffic analysis. Proven in leading network modernization projects, security posture improvements, and cross-functional implementation teams for 24x7 healthcare and mission-critical services.",
+    "summary": "Senior Network Engineer and architect with 30+ years designing, deploying, and operating large-scale Cisco networks in enterprise and clinical environments. Hands-on expertise with Catalyst 9000 platforms, SD-Access / ISE, routing & switching (OSPF, BGP, EIGRP), MPLS, QoS, VXLAN, NAC, VPNs, and packet-level traffic analysis. Proven in leading network modernization projects, security posture improvements, and cross-functional implementation teams for 24x7 healthcare and mission-critical services.",
     "experience": [
         {
             "title": "Senior Network Engineer",
-            "company": "Ventura County Health Care Agency (VCHCA)",
+            "company": "[Ventura County Health Care Agency](https://vchca.org)",
             "date": "2023 – Present",
             "bullets": [
                 "Lead network architect responsible for modernizing a clinical and corporate enterprise network to improve security, segmentation, and availability for patient-facing systems.",
@@ -27,7 +27,7 @@
         },
         {
             "title": "Principal Consultant",
-            "company": "Delta9 Technology, LLC",
+            "company": "[Delta9 Technology, LLC](https://delta9.tech)",
             "date": "2017 – 2023",
             "bullets": [
                 "Provided architecture and security consulting for enterprise and public-sector clients, focusing on compliance, high-availability designs, and secure remote access.",
@@ -38,7 +38,7 @@
         },
         {
             "title": "Network Architect",
-            "company": "DexYP",
+            "company": "[DexYp](https://dexyp.com)",
             "date": "2015 – 2017",
             "bullets": [
                 "Designed resilient WAN/LAN and wireless architectures and introduced NFV/SDN concepts to increase operational flexibility.",
@@ -47,7 +47,7 @@
         },
         {
             "title": "Executive Director, Network & Telecom",
-            "company": "YP (Yellowpages.com)",
+            "company": "YP ([Yellowpages.com](https://yellowpages.com))",
             "date": "2012 – 2015",
             "bullets": [
                 "Directed network and telephony infrastructure strategy, managed SLAs, budgets, and multi-vendor project delivery."
@@ -55,7 +55,7 @@
         },
         {
             "title": "Associate Director, Voice & Data",
-            "company": "AT&T Interactive",
+            "company": "AT&T Interactive ([AT&T](https://att.com))",
             "date": "2009 – 2012",
             "bullets": [
                 "Engineered Tier 4 data center expansions and multi-vendor production networks supporting global services."
@@ -63,7 +63,7 @@
         },
         {
             "title": "Senior Network Engineer",
-            "company": "Yahoo! / Overture / Goto.com",
+            "company": "Yahoo! ([Yahoo](https://yahoo.com)) / Overture ([Overture](https://overture.com)) / Goto.com ([Goto.com](https://goto.com))",
             "date": "2001 – 2004",
             "bullets": [
                 "Designed and operated global production networks and led technology migration projects during major acquisitions."
