@@ -68,6 +68,13 @@ const App: React.FC = () => {
           </div>
         ) : (
           <div className="space-y-12 no-print animate-in fade-in slide-in-from-bottom-4 duration-500">
+            {/* Summary Section */}
+            <section className="max-w-3xl mx-auto text-center">
+              <p className="text-lg text-slate-700 leading-relaxed font-medium">
+                {resumeData.summary}
+              </p>
+            </section>
+
             {/* Experience Section */}
             <Experience />
 
