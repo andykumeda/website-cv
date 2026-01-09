@@ -9,6 +9,7 @@ import { Skills } from './components/Skills';
 import { Education } from './components/Education';
 import { Certifications } from './components/Certifications';
 import { Projects } from './components/Projects';
+import { Summary } from './components/Summary';
 
 const App: React.FC = () => {
   const [view, setView] = useState<'visual' | 'markdown'>('visual');
@@ -69,11 +70,7 @@ const App: React.FC = () => {
         ) : (
           <div className="space-y-12 no-print animate-in fade-in slide-in-from-bottom-4 duration-500">
             {/* Summary Section */}
-            <section className="max-w-3xl mx-auto text-center">
-              <p className="text-lg text-slate-700 leading-relaxed font-medium">
-                {resumeData.summary}
-              </p>
-            </section>
+            <Summary />
 
             {/* Experience Section */}
             <Experience />
