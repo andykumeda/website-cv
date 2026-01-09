@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Download, Globe, Phone } from 'lucide-react';
 import resumeData from './resume.json';
 import { generateMarkdown } from './utils/markdownGenerator';
+import { renderLinks } from './utils/renderLinks';
 import AIChat from './components/AIChat';
 import { Hero } from './components/Hero';
 import { Experience } from './components/Experience';
@@ -139,7 +140,7 @@ const App: React.FC = () => {
                 {resumeData.experience.map((job, idx) => (
                   <div key={idx}>
                     <div className="flex justify-between items-baseline mb-1">
-                      <h3 className="font-bold text-base">{job.title} | {job.company}</h3>
+                      <h3 className="font-bold text-base">{job.title} | {renderLinks(job.company)}</h3>
                       <span className="text-xs font-bold">{job.date}</span>
                     </div>
                     <ul className="text-sm list-disc list-inside text-slate-800 space-y-1 pl-2">

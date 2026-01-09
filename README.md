@@ -5,7 +5,7 @@ Featuring an AI-powered chat assistant (powered by Google Gemini) and a dynamica
 
 ## 🚀 Features
 
-*   **Single Source of Truth**: All content is managed in `src/resume.json`.
+*   **Single Source of Truth**: All content is managed in `resume.json`.
 *   **Dual View**: Switch between a polished "Visual Layout" and a raw "Markdown View" (dynamically generated).
 *   **AI Assistant**: Wraps the Google Gemini API to answer questions about the candidate's experience.
 *   **Component Architecture**: Modular React components for experience, skills, education, and projects.
