@@ -1,0 +1,142 @@
+{
+    "profile": {
+        "name": "Andy Kumeda",
+        "title": "Senior Cisco Network Engineer | Network Architect",
+        "ccie": "CCIE #3406",
+        "email": "andy@kumeda.com",
+        "phone": "(310) 493-1793",
+        "website": "andykumeda.com",
+        "linkedin": "https://www.linkedin.com/in/andykumeda/",
+        "github": "https://github.com/andykumeda"
+    },
+    "summary": "Senior Network Engineer and architect with 25+ years designing, deploying, and operating large-scale Cisco networks in enterprise and clinical environments. Hands-on expertise with Catalyst 9000 platforms, SD-Access / ISE, routing & switching (OSPF, BGP, EIGRP), MPLS, QoS, VXLAN, NAC, VPNs, and packet-level traffic analysis. Proven in leading network modernization projects, security posture improvements, and cross-functional implementation teams for 24x7 healthcare and mission-critical services.",
+    "experience": [
+        {
+            "title": "Senior Network Engineer",
+            "company": "Ventura County Health Care Agency (VCHCA)",
+            "date": "2023 – Present",
+            "bullets": [
+                "Lead network architect responsible for modernizing a clinical and corporate enterprise network to improve security, segmentation, and availability for patient-facing systems.",
+                "Architecting and leading migration from legacy Cisco platforms to Catalyst 9000 series across campus and data center environments.",
+                "Designing and deploying Cisco SD-Access and ISE/NAC to replace ACS-based authentication and provide robust policy-based access control and micro-segmentation.",
+                "Performing network assessments, maintenance planning, and upgrade execution to meet 24x7 clinical SLAs.",
+                "Configuring and optimizing core, distribution, and access layer switching including VLAN design, VXLAN segmentation, and QoS policies for critical medical applications.",
+                "Implementing automation (Ansible, Python) for repeatable device provisioning and configuration validation.",
+                "Conducting packet-level analysis and troubleshooting to resolve complex latency and connectivity issues impacting urgent-care systems."
+            ]
+        },
+        {
+            "title": "Principal Consultant",
+            "company": "Delta9 Technology, LLC",
+            "date": "2017 – 2023",
+            "bullets": [
+                "Provided architecture and security consulting for enterprise and public-sector clients, focusing on compliance, high-availability designs, and secure remote access.",
+                "Architected IPS/IDS and firewall solutions aligned with FBI CJIS and FIPS requirements for law enforcement agencies.",
+                "Led threat mitigation, incident response, and vulnerability remediation programs for varied enterprise customers.",
+                "Designed distributed, multi-site WAN/LAN topologies and produced integration plans for M&A activities."
+            ]
+        },
+        {
+            "title": "Network Architect",
+            "company": "DexYP",
+            "date": "2015 – 2017",
+            "bullets": [
+                "Designed resilient WAN/LAN and wireless architectures and introduced NFV/SDN concepts to increase operational flexibility.",
+                "Built automation frameworks with Ansible and Python to reduce manual configuration errors and accelerate deployments."
+            ]
+        },
+        {
+            "title": "Executive Director, Network & Telecom",
+            "company": "YP (Yellowpages.com)",
+            "date": "2012 – 2015",
+            "bullets": [
+                "Directed network and telephony infrastructure strategy, managed SLAs, budgets, and multi-vendor project delivery."
+            ]
+        },
+        {
+            "title": "Associate Director, Voice & Data",
+            "company": "AT&T Interactive",
+            "date": "2009 – 2012",
+            "bullets": [
+                "Engineered Tier 4 data center expansions and multi-vendor production networks supporting global services."
+            ]
+        },
+        {
+            "title": "Senior Network Engineer",
+            "company": "Yahoo! / Overture / Goto.com",
+            "date": "2001 – 2004",
+            "bullets": [
+                "Designed and operated global production networks and led technology migration projects during major acquisitions."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "cat": "Cisco Enterprise Architecture",
+            "items": "Catalyst 9K, Catalyst Center, IOS-XE, SD-Access, ISE"
+        },
+        {
+            "cat": "Routing & Switching",
+            "items": "OSPF, BGP, EIGRP, ISIS, MPLS, VXLAN, Multicast, QoS"
+        },
+        {
+            "cat": "Security & Access",
+            "items": "NAC (ISE), ACS/SecurID, RADIUS/TACACS, Firewalls, IDS/IPS"
+        },
+        {
+            "cat": "Network Services",
+            "items": "VPN, Remote Access, MetroEthernet, WAN design"
+        },
+        {
+            "cat": "Monitoring & Analysis",
+            "items": "SolarWinds, Wireshark (packet-level), vulnerability testing"
+        },
+        {
+            "cat": "Automation & Tooling",
+            "items": "Ansible, Python, Terraform, IaC"
+        },
+        {
+            "cat": "Leadership",
+            "items": "Project & vendor management, cross-functional collaboration, mentoring"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Network Modernization",
+            "description": "Led the campus and DC refresh to Catalyst 9K platforms, enabling SD-Access adoption and centralized policy controls."
+        },
+        {
+            "title": "NAC & Access Control",
+            "description": "Replaced legacy ACS authentication with ISE-based NAC and role-based access policies to segregate clinical and administrative traffic."
+        },
+        {
+            "title": "Security Assessments",
+            "description": "Coordinated penetration testing and vulnerability scans, prioritized remediation, and integrated IDS/IPS controls into monitoring."
+        },
+        {
+            "title": "Automation & Repeatability",
+            "description": "Implemented automated provisioning and configuration validation workflows via Ansible and Python, reducing manual changes and configuration drift."
+        }
+    ],
+    "education": {
+        "degree": "BS, Computer Science & Engineering",
+        "school": "California State University, Long Beach"
+    },
+    "certifications": [
+        {
+            "title": "CCIE #3406",
+            "subtitle": "Routing & Switching",
+            "color": "blue"
+        },
+        {
+            "title": "CCNA (current)",
+            "subtitle": "Active",
+            "color": "green"
+        },
+        {
+            "title": "CCIE Recertifications",
+            "subtitle": "Security, IP, Data Center",
+            "color": "purple"
+        }
+    ]
+}
