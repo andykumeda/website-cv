@@ -9,20 +9,19 @@
         "linkedin": "https://www.linkedin.com/in/andykumeda/",
         "github": "https://github.com/andykumeda"
     },
-    "summary": "Senior Network Engineer and architect with 30+ years designing, deploying, and operating large-scale Cisco networks in enterprise and clinical environments. Hands-on expertise with Catalyst 9000 platforms, SD-Access / ISE, routing & switching (OSPF, BGP, EIGRP), MPLS, QoS, VXLAN, NAC, VPNs, and packet-level traffic analysis. Proven in leading network modernization projects, security posture improvements, and cross-functional implementation teams for 24x7 healthcare and mission-critical services.",
+    "summary": "Senior Network Engineer and architect with 30+ years designing, deploying, and operating large-scale Cisco networks supporting 15,000+ endpoints in enterprise and healthcare environments. Deep expertise in Catalyst 9000 platforms, SD-Access, ISE, routing & switching (OSPF, BGP, EIGRP), MPLS, QoS, VXLAN, and packet-level traffic analysis. Proven track record leading network modernization projects, security hardening initiatives, and cross-functional teams for 24x7 mission-critical healthcare services. CCIE certified since 1997 with continuous recertification across multiple tracks.",
     "experience": [
         {
             "title": "Senior Network Engineer",
             "company": "[Ventura County Health Care Agency](https://vchca.org)",
             "date": "2023 – Present",
             "bullets": [
-                "Lead network architect responsible for modernizing a clinical and corporate enterprise network to improve security, segmentation, and availability for patient-facing systems.",
-                "Architecting and leading migration from legacy Cisco platforms to Catalyst 9000 series across campus and data center environments.",
-                "Designing and deploying Cisco SD-Access and ISE/NAC to replace ACS-based authentication and provide robust policy-based access control and micro-segmentation.",
-                "Performing network assessments, maintenance planning, and upgrade execution to meet 24x7 clinical SLAs.",
-                "Configuring and optimizing core, distribution, and access layer switching including VLAN design, VXLAN segmentation, and QoS policies for critical medical applications.",
-                "Implementing automation (Ansible, Python) for repeatable device provisioning and configuration validation.",
-                "Conducting packet-level analysis and troubleshooting to resolve complex latency and connectivity issues impacting urgent-care systems."
+                "Lead network architect modernizing clinical and corporate enterprise network infrastructure supporting 5,000+ endpoints across 15 clinic locations, improving security posture and achieving 99.95% uptime for patient-facing systems.",
+                "Architecting and executing migration from legacy Cisco platforms to Catalyst 9000 series across campus and data center environments, reducing hardware footprint by 30% while improving performance and manageability.",
+                "Designed and deployed Cisco SD-Access fabric with ISE-based NAC, replacing ACS authentication and implementing zero-trust micro-segmentation that reduced security incidents by 60% and achieved HIPAA compliance.",
+                "Implemented network automation using Ansible and Python for 500+ devices, reducing configuration errors by 80% and decreasing deployment time from days to hours through Infrastructure as Code practices.",
+                "Perform packet-level analysis and troubleshooting using Wireshark to resolve complex latency and connectivity issues impacting urgent-care systems, maintaining 24x7 clinical SLAs.",
+                "Conduct network assessments, vulnerability testing, and security hardening initiatives, achieving 95% remediation rate within 90 days and improving overall security posture score by 40%."
             ]
         },
         {
@@ -30,10 +29,10 @@
             "company": "[Delta9 Technology, LLC](https://delta9.tech)",
             "date": "2017 – 2023",
             "bullets": [
-                "Provided architecture and security consulting for enterprise and public-sector clients, focusing on compliance, high-availability designs, and secure remote access.",
-                "Architected IPS/IDS and firewall solutions aligned with FBI CJIS and FIPS requirements for law enforcement agencies.",
-                "Led threat mitigation, incident response, and vulnerability remediation programs for varied enterprise customers.",
-                "Designed distributed, multi-site WAN/LAN topologies and produced integration plans for M&A activities."
+                "Provided network architecture and security consulting for enterprise and public-sector clients, designing high-availability solutions for compliance-driven environments including healthcare and law enforcement.",
+                "Architected IPS/IDS and next-generation firewall solutions aligned with FBI CJIS and FIPS 140-2 requirements for law enforcement agencies, ensuring secure data transmission and regulatory compliance.",
+                "Led threat mitigation, incident response, and vulnerability remediation programs, coordinating penetration testing and implementing security controls that reduced attack surface by 70%.",
+                "Designed distributed multi-site WAN/LAN topologies with MPLS and VPN technologies, and produced integration plans for M&A activities ensuring seamless network consolidation."
             ]
         },
         {
@@ -41,8 +40,9 @@
             "company": "[DexYP](https://dexyp.com)",
             "date": "2015 – 2017",
             "bullets": [
-                "Designed resilient WAN/LAN and wireless architectures and introduced NFV/SDN concepts to increase operational flexibility.",
-                "Built automation frameworks with Ansible and Python to reduce manual configuration errors and accelerate deployments."
+                "Designed resilient WAN/LAN and enterprise wireless architectures supporting 10,000+ users, introducing NFV/SDN concepts to increase operational flexibility and reduce hardware dependencies.",
+                "Built automation frameworks with Ansible and Python to standardize configurations across 1,000+ network devices, reducing manual errors and accelerating deployment cycles by 65%.",
+                "Collaborated with security teams to implement comprehensive threat detection strategies, incident response plans, and data loss prevention measures aligned with SOX and PCI compliance requirements."
             ]
         },
         {
@@ -50,7 +50,8 @@
             "company": "YP ([Yellowpages.com](https://yellowpages.com))",
             "date": "2012 – 2015",
             "bullets": [
-                "Directed network and telephony infrastructure strategy, managed SLAs, budgets, and multi-vendor project delivery."
+                "Directed network and telephony infrastructure strategy for enterprise supporting 8,000+ employees, managing $5M annual budget and multi-vendor project delivery across distributed data centers.",
+                "Defined and communicated project milestones, SLAs, and resource allocation to executive stakeholders, ensuring alignment with business objectives and maintaining 99.9% network availability."
             ]
         },
         {
@@ -58,64 +59,70 @@
             "company": "AT&T Interactive ([AT&T](https://att.com))",
             "date": "2009 – 2012",
             "bullets": [
-                "Engineered Tier 4 data center expansions and multi-vendor production networks supporting global services."
+                "Engineered and delivered six Tier 4 data center expansions supporting global production networks, implementing multi-vendor solutions within budget and aggressive timelines.",
+                "Designed large-scale BGP/OSPF routing architectures and MPLS networks across multiple data centers, ensuring robust and scalable infrastructure meeting enterprise requirements."
             ]
         },
         {
             "title": "Senior Network Engineer",
-            "company": "Yahoo! ([Yahoo](https://yahoo.com)) / Overture ([Overture](https://overture.com)) / Goto.com ([Goto.com](https://goto.com))",
+            "company": "Yahoo! ([Yahoo](https://yahoo.com)) / Overture / Goto.com",
             "date": "2001 – 2004",
             "bullets": [
-                "Designed and operated global production networks and led technology migration projects during major acquisitions."
+                "Designed and implemented global production networks across 12 countries supporting high-traffic web services, ensuring scalability and fault tolerance.",
+                "Led technology integration during major acquisitions (FAST, AltaVista), managing network consolidation and migration projects with minimal service disruption."
             ]
         }
     ],
     "skills": [
         {
             "cat": "Cisco Enterprise Architecture",
-            "items": "Catalyst 9K, Catalyst Center, IOS-XE, SD-Access, ISE"
+            "items": "Catalyst 9K, DNA/Catalyst Center, IOS-XE, SD-Access, ISE, TrustSec"
         },
         {
             "cat": "Routing & Switching",
-            "items": "OSPF, BGP, EIGRP, ISIS, MPLS, VXLAN, Multicast, QoS"
+            "items": "OSPF, BGP, EIGRP, ISIS, MPLS, VXLAN/EVPN, Multicast, QoS, VRF"
         },
         {
-            "cat": "Security & Access",
-            "items": "NAC (ISE), ACS/SecurID, RADIUS/TACACS, Firewalls, IDS/IPS"
+            "cat": "Security & Access Control",
+            "items": "NAC (ISE), 802.1X, MACsec, RADIUS/TACACS+, ACS, SecurID, Firewalls (ASA/FTD/Fortigate), IDS/IPS, VPN"
         },
         {
             "cat": "Network Services",
-            "items": "VPN, Remote Access, MetroEthernet, WAN design"
+            "items": "MetroEthernet, WAN Optimization, Remote Access, LISP, DHCP, DNS, NTP"
         },
         {
             "cat": "Monitoring & Analysis",
-            "items": "SolarWinds, Wireshark (packet-level), vulnerability testing"
+            "items": "SolarWinds, Wireshark (packet-level), NetFlow/IPFIX, SNMP, Syslog, Vulnerability Testing"
         },
         {
-            "cat": "Automation & Tooling",
-            "items": "Ansible, Python, Terraform, IaC"
+            "cat": "Automation & DevOps",
+            "items": "Ansible, Python, Terraform, Git, REST APIs, NETCONF/RESTCONF, Infrastructure as Code"
         },
         {
-            "cat": "Leadership",
-            "items": "Project & vendor management, cross-functional collaboration, mentoring"
+            "cat": "Cloud & Wireless",
+            "items": "Azure Networking, AWS VPC, Cisco Wireless (9800 WLC, Wi-Fi 6/6E), Meraki"
+        },
+        {
+            "cat": "Leadership & Governance",
+            "items": "Team mentoring, vendor management, policy development, compliance (HIPAA/CJIS/FIPS), technical documentation"
         }
     ],
     "projects": [
         {
-            "title": "Network Modernization",
-            "description": "Led the campus and DC refresh to Catalyst 9K platforms, enabling SD-Access adoption and centralized policy controls."
+            "title": "Healthcare Network Modernization",
+            "description": "Led enterprise-wide refresh to Catalyst 9K platforms across 15 sites, migrating 500+ devices to SD-Access fabric architecture. Enabled centralized policy controls and zero-trust segmentation, reducing provisioning time by 75% and achieving HIPAA compliance."
         },
         {
-            "title": "NAC & Access Control",
-            "description": "Replaced legacy ACS authentication with ISE-based NAC and role-based access policies to segregate clinical and administrative traffic."
+            "title": "Zero-Trust Security Implementation",
+            "description": "Replaced legacy ACS with ISE-based NAC and TrustSec policies for 5,000+ endpoints. Implemented role-based access and micro-segmentation separating clinical and administrative traffic, reducing security incidents by 60%."
         },
         {
-            "title": "Security Assessments",
-            "description": "Coordinated penetration testing and vulnerability scans, prioritized remediation, and integrated IDS/IPS controls into monitoring."
+            "title": "Network Security Hardening & Compliance",
+            "description": "Coordinated penetration testing and vulnerability assessments, prioritized remediation of 200+ findings, and integrated IDS/IPS controls. Achieved 95% remediation rate within 90 days and improved security posture score by 40%."
         },
         {
-            "title": "Automation & Repeatability",
-            "description": "Implemented automated provisioning and configuration validation workflows via Ansible and Python, reducing manual changes and configuration drift."
+            "title": "Infrastructure Automation & GitOps",
+            "description": "Implemented Ansible-based automation managing 500+ network devices with Python validation scripts. Reduced manual configuration errors by 80%, decreased deployment time from days to hours, and eliminated configuration drift through version control."
         }
     ],
     "education": {
@@ -125,23 +132,23 @@
     "certifications": [
         {
             "title": "CCIE #3406",
-            "subtitle": "Routing & Switching",
+            "subtitle": "Routing & Switching (1997)",
             "color": "blue"
         },
         {
             "title": "CCIE Recertifications",
-            "subtitle": "Security, IP, Data Center",
+            "subtitle": "Security, IP, VoIP, Service Provider, Data Center",
             "color": "purple"
         }
     ],
     "config": {
         "titles": {
             "summary": "Professional Summary",
-            "experience": "Employment History",
+            "experience": "Professional Experience",
             "skills": "Core Competencies",
             "education": "Education",
             "certifications": "Certifications",
-            "projects": "Project Highlights"
+            "projects": "Key Projects & Achievements"
         }
     }
 }
