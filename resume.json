@@ -9,19 +9,19 @@
         "linkedin": "https://www.linkedin.com/in/andykumeda/",
         "github": "https://github.com/andykumeda"
     },
-    "summary": "I've spent three decades building and modernizing enterprise networks in healthcare and high-availability environments. Currently leading the network transformation at Ventura County Health Care Agency, where I'm migrating legacy infrastructure to modern Cisco platforms while ensuring zero disruption to clinical operations. My career has spanned from building global networks at Yahoo during the dot-com era to architecting secure, compliant solutions for healthcare and law enforcement. CCIE certified since 1997—back when there were only a few thousand of us worldwide. I'm drawn to environments where network decisions have real-world impact: keeping emergency rooms connected, enabling secure remote access, or ensuring clinical systems never go down.",
+    "summary": "Senior Network Engineer with 30+ years designing and operating large-scale enterprise networks in healthcare and high-availability environments. Currently leading network modernization at Ventura County Health Care Agency, migrating legacy infrastructure to Catalyst 9000 platforms while maintaining zero disruption to clinical operations. Deep expertise in Software-Defined Access, Identity Services Engine, routing protocols, MPLS, and packet-level troubleshooting. CCIE certified since 1997 with continuous recertification across multiple technology tracks.",
     "experience": [
         {
             "title": "Senior Network Engineer",
             "company": "[Ventura County Health Care Agency](https://vchca.org)",
             "date": "2023 – Present",
             "bullets": [
-                "Leading the modernization of clinical and corporate network infrastructure supporting thousands of endpoints across multiple clinic locations. Improved security posture while achieving 99.95% uptime for patient-facing systems—critical when downtime literally impacts patient care.",
-                "Architecting and executing the migration from legacy Cisco platforms to Catalyst 9000 series across campus and data center environments. Reduced hardware footprint by 30% while improving performance, and more importantly, simplified operations for the team managing it.",
-                "Designed and deployed Software-Defined Access fabric with Identity Services Engine for network access control, replacing 15-year-old authentication infrastructure. Implemented micro-segmentation that reduced security incidents by 60% (from ~50/month to ~20/month) and achieved HIPAA compliance.",
-                "Built network automation using Ansible and Python for hundreds of devices, reducing configuration errors by 80% and cutting deployment time from 3 days to 4 hours. This freed the team to focus on strategic projects instead of repetitive configuration tasks.",
-                "Perform deep packet-level analysis using Wireshark to troubleshoot complex latency and connectivity issues impacting urgent-care systems. Navigate the unique challenge of healthcare IT: balancing security requirements with clinician workflow needs while maintaining 24x7 operations.",
-                "Lead network security assessments and vulnerability remediation initiatives, achieving 95% remediation rate within 90 days and improving overall security posture by 40%. Coordinate penetration testing and work with security teams to implement defense-in-depth strategies."
+                "Lead network architect modernizing clinical and corporate infrastructure supporting thousands of endpoints across multiple clinic locations, achieving 99.95% uptime for patient-facing systems.",
+                "Architecting migration from legacy Cisco platforms to Catalyst 9000 series across campus and data center environments, reducing hardware footprint by 30% while improving performance and manageability.",
+                "Designed and deployed Software-Defined Access fabric with Identity Services Engine for network access control, implementing micro-segmentation that reduced security incidents by 60% and achieved HIPAA compliance.",
+                "Built network automation using Ansible and Python for hundreds of devices, reducing configuration errors by 80% and cutting deployment time from 3 days to 4 hours.",
+                "Perform packet-level analysis using Wireshark to troubleshoot complex latency and connectivity issues impacting urgent-care systems, maintaining service levels for 24x7 clinical operations.",
+                "Lead network security assessments and vulnerability remediation initiatives, achieving 95% remediation rate within 90 days and improving security posture by 40%."
             ]
         },
         {
@@ -29,10 +29,10 @@
             "company": "[Delta9 Technology, LLC](https://delta9.tech)",
             "date": "2017 – 2023",
             "bullets": [
-                "Founded consulting practice to help organizations navigate complex compliance requirements in healthcare and law enforcement. Designed high-availability solutions where security and uptime aren't optional—they're mandated by federal regulations.",
-                "Architected intrusion prevention and next-generation firewall solutions aligned with FBI CJIS and FIPS 140-2 requirements for law enforcement agencies. These systems handle sensitive criminal justice data where a breach could compromise active investigations.",
-                "Led threat mitigation and incident response programs, coordinating penetration testing and implementing security controls that reduced attack surface by 70%. Worked with clients during active incidents—the kind of high-pressure situations where experience matters.",
-                "Designed distributed multi-site network topologies with MPLS and VPN technologies for enterprise clients. Produced integration plans for merger and acquisition activities, ensuring seamless network consolidation during organizational transitions."
+                "Provided network architecture and security consulting for enterprise and public-sector clients, designing high-availability solutions for compliance-driven healthcare and law enforcement environments.",
+                "Architected intrusion prevention and firewall solutions aligned with FBI CJIS and FIPS 140-2 requirements for law enforcement agencies handling sensitive criminal justice data.",
+                "Led threat mitigation and incident response programs, coordinating penetration testing and implementing security controls that reduced attack surface by 70%.",
+                "Designed distributed multi-site network topologies with MPLS and VPN technologies, producing integration plans for merger and acquisition activities."
             ]
         },
         {
@@ -40,9 +40,9 @@
             "company": "[DexYP](https://dexyp.com)",
             "date": "2015 – 2017",
             "bullets": [
-                "Designed resilient wide-area and enterprise wireless architectures supporting thousands of users across distributed locations. Introduced software-defined networking concepts to increase operational flexibility and reduce hardware dependencies.",
-                "Built automation frameworks with Ansible and Python to standardize configurations across network infrastructure, reducing manual errors and accelerating deployment cycles by 65%. Early adoption of infrastructure-as-code practices that are now industry standard.",
-                "Collaborated with security teams to implement threat detection strategies, incident response plans, and data loss prevention measures aligned with SOX and PCI compliance requirements."
+                "Designed resilient wide-area and enterprise wireless architectures supporting thousands of users, introducing software-defined networking concepts to increase operational flexibility.",
+                "Built automation frameworks with Ansible and Python to standardize configurations across network infrastructure, reducing manual errors and accelerating deployment cycles by 65%.",
+                "Collaborated with security teams to implement threat detection strategies, incident response plans, and data loss prevention measures aligned with SOX and PCI compliance."
             ]
         },
         {
@@ -50,8 +50,8 @@
             "company": "YP ([Yellowpages.com](https://yellowpages.com))",
             "date": "2012 – 2015",
             "bullets": [
-                "Directed network and telephony infrastructure strategy for enterprise supporting thousands of employees, managing multi-million dollar annual budget and multi-vendor project delivery across distributed data centers.",
-                "Defined project milestones, service level agreements, and resource allocation to executive stakeholders, ensuring alignment with business objectives while maintaining high network availability during a period of significant organizational change."
+                "Directed network and telephony infrastructure strategy for enterprise supporting thousands of employees, managing multi-million dollar annual budget and multi-vendor project delivery.",
+                "Defined project milestones, service level agreements, and resource allocation to executive stakeholders, maintaining high network availability during organizational transformation."
             ]
         },
         {
@@ -59,8 +59,8 @@
             "company": "AT&T Interactive ([AT&T](https://att.com))",
             "date": "2009 – 2012",
             "bullets": [
-                "Engineered and delivered six Tier 4 data center expansions supporting global production networks, implementing multi-vendor solutions within budget and aggressive timelines.",
-                "Designed large-scale routing architectures and MPLS networks across multiple data centers, ensuring robust and scalable infrastructure meeting enterprise requirements for a global telecommunications provider."
+                "Engineered and delivered six Tier 4 data center expansions supporting global production networks, implementing multi-vendor solutions within budget and timeline constraints.",
+                "Designed large-scale routing architectures and MPLS networks across multiple data centers for global telecommunications infrastructure."
             ]
         },
         {
@@ -68,8 +68,8 @@
             "company": "Yahoo! ([Yahoo](https://yahoo.com)) / Overture / Goto.com",
             "date": "2001 – 2004",
             "bullets": [
-                "Designed and implemented global production networks across 12 countries supporting high-traffic web services during the dot-com era. Built infrastructure that needed to scale rapidly while maintaining reliability.",
-                "Led technology integration during major acquisitions, managing network consolidation and migration projects with minimal service disruption. Learned early in my career how to balance innovation with operational stability."
+                "Designed and implemented global production networks across 12 countries supporting high-traffic web services, ensuring scalability and fault tolerance.",
+                "Led technology integration during major acquisitions, managing network consolidation and migration projects with minimal service disruption."
             ]
         }
     ],
@@ -102,15 +102,15 @@
     "projects": [
         {
             "title": "Healthcare Network Modernization",
-            "description": "Led enterprise-wide refresh to Catalyst 9000 platforms across multiple sites, migrating hundreds of devices to Software-Defined Access fabric. Enabled centralized policy controls and network segmentation, reducing provisioning time by 75% and achieving regulatory compliance. The challenge wasn't just the technology—it was coordinating changes across clinical schedules and ensuring zero impact to patient care."
+            "description": "Led enterprise-wide refresh to Catalyst 9000 platforms across multiple sites, migrating hundreds of devices to Software-Defined Access fabric. Enabled centralized policy controls and network segmentation, reducing provisioning time by 75% and achieving regulatory compliance."
         },
         {
             "title": "Zero-Trust Security Implementation",
-            "description": "Replaced 15-year-old authentication infrastructure with Identity Services Engine and TrustSec policies for thousands of endpoints. Implemented role-based access and micro-segmentation separating clinical and administrative traffic, reducing security incidents by 60%. This project required balancing security requirements with the reality that clinicians need quick, reliable access to patient systems."
+            "description": "Replaced legacy authentication infrastructure with Identity Services Engine and TrustSec policies for thousands of endpoints. Implemented role-based access and micro-segmentation separating clinical and administrative traffic, reducing security incidents by 60%."
         },
         {
             "title": "Network Security Hardening & Compliance",
-            "description": "Coordinated penetration testing and vulnerability assessments, prioritized remediation of hundreds of findings, and integrated intrusion detection and prevention controls. Achieved 95% remediation rate within 90 days and improved security posture by 40%. Worked closely with security teams to implement defense-in-depth strategies appropriate for healthcare environments."
+            "description": "Coordinated penetration testing and vulnerability assessments, prioritized remediation of hundreds of findings, and integrated intrusion detection and prevention controls. Achieved 95% remediation rate within 90 days and improved security posture by 40%."
         }
     ],
     "education": {
