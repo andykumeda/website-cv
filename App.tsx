@@ -49,7 +49,7 @@ const App: React.FC = () => {
       </nav>
 
       {/* Hero Section */}
-      <Hero />
+      <Hero profile={resumeData.profile} />
 
       {/* Main Content Area */}
       <main className="max-w-5xl mx-auto px-4 pb-24 sm:px-6">
@@ -70,24 +70,42 @@ const App: React.FC = () => {
         ) : (
           <div className="space-y-12 no-print animate-in fade-in slide-in-from-bottom-4 duration-500">
             {/* Summary Section */}
-            <Summary />
+            <Summary
+              summary={resumeData.summary}
+              title={resumeData.config?.titles.summary || "Professional Summary"}
+            />
 
             {/* Experience Section */}
-            <Experience />
+            <Experience
+              experience={resumeData.experience}
+              title={resumeData.config?.titles.experience || "Experience"}
+            />
 
             {/* Projects Section */}
-            <Projects />
+            <Projects
+              projects={resumeData.projects}
+              title={resumeData.config?.titles.projects || "Selected Project Highlights"}
+            />
 
             {/* Grid for Skills and Education */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="md:col-span-2 space-y-12">
-                <Skills />
-                <Education />
+                <Skills
+                  skills={resumeData.skills}
+                  title={resumeData.config?.titles.skills || "Core Competencies"}
+                />
+                <Education
+                  education={resumeData.education}
+                  title={resumeData.config?.titles.education || "Education"}
+                />
               </div>
 
               {/* Sidebar items */}
               <div className="space-y-8">
-                <Certifications />
+                <Certifications
+                  certifications={resumeData.certifications}
+                  title={resumeData.config?.titles.certifications || "Certifications"}
+                />
               </div>
             </div>
           </div>

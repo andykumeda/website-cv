@@ -38,7 +38,7 @@
         },
         {
             "title": "Network Architect",
-            "company": "[DexYp](https://dexyp.com)",
+            "company": "[DexYP](https://dexyp.com)",
             "date": "2015 – 2017",
             "bullets": [
                 "Designed resilient WAN/LAN and wireless architectures and introduced NFV/SDN concepts to increase operational flexibility.",
@@ -129,14 +129,19 @@
             "color": "blue"
         },
         {
-            "title": "CCNA (current)",
-            "subtitle": "Active",
-            "color": "green"
-        },
-        {
             "title": "CCIE Recertifications",
             "subtitle": "Security, IP, Data Center",
             "color": "purple"
         }
-    ]
+    ],
+    "config": {
+        "titles": {
+            "summary": "Professional Summary",
+            "experience": "Employment History",
+            "skills": "Core Competencies",
+            "education": "Education",
+            "certifications": "Certifications",
+            "projects": "Project Highlights"
+        }
+    }
 }

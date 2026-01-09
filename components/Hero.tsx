@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { Network, Linkedin, Github, Mail } from 'lucide-react';
-import resumeData from '../resume.json';
+import { ResumeData } from '../types';
 
-export const Hero: React.FC = () => {
+interface HeroProps {
+    profile: ResumeData['profile'];
+}
+
+export const Hero: React.FC<HeroProps> = ({ profile }) => {
     const [imageError, setImageError] = useState(false);
-    const { profile } = resumeData;
 
     return (
         <header className="pt-20 pb-12 px-4 no-print bg-gradient-to-b from-blue-50 to-white">

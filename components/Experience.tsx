@@ -1,20 +1,24 @@
 import React from 'react';
 import { Briefcase } from 'lucide-react';
-import resumeData from '../resume.json';
-
+import { ResumeData } from '../types';
 import { renderLinks } from '../utils/renderLinks';
 
-export const Experience: React.FC = () => {
+interface ExperienceProps {
+    experience: ResumeData['experience'];
+    title: string;
+}
+
+export const Experience: React.FC<ExperienceProps> = ({ experience, title }) => {
     return (
         <section>
             <div className="flex items-center gap-3 mb-8">
                 <div className="p-2.5 bg-blue-100 text-blue-700 rounded-xl shadow-sm">
                     <Briefcase className="w-6 h-6" />
                 </div>
-                <h2 className="text-2xl font-bold text-slate-900">Experience</h2>
+                <h2 className="text-2xl font-bold text-slate-900">{title}</h2>
             </div>
             <div className="space-y-8 relative before:absolute before:inset-y-0 before:left-8 before:w-px before:bg-slate-200">
-                {resumeData.experience.map((job, idx) => (
+                {experience.map((job, idx) => (
                     <div key={idx} className="relative pl-16 group">
                         <div className="absolute left-[30px] top-1.5 w-4 h-4 rounded-full bg-white border-4 border-blue-700 ring-4 ring-white group-hover:scale-125 transition-all duration-300"></div>
                         <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:border-blue-100 transition-all duration-300">

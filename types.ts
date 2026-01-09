@@ -39,6 +39,16 @@ export interface ResumeData {
     title: string;
     description: string;
   }[];
+  config?: {
+    titles: {
+      summary: string;
+      experience: string;
+      skills: string;
+      education: string;
+      certifications: string;
+      projects: string;
+    };
+  };
 }
 
 export interface Experience {
