@@ -3,8 +3,6 @@
 A modern, responsive portfolio website built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. 
 Featuring an AI-powered chat assistant (powered by Google Gemini) and a dynamically generated "Markdown View" of the resume.
 
-![Portfolio Preview](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
-
 ## 🚀 Features
 
 *   **Single Source of Truth**: All content is managed in `src/resume.json`.
