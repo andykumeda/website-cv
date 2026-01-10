@@ -75,7 +75,7 @@ const App: React.FC = () => {
               const defaultOrder = ['summary', 'experience', 'projects', 'skills', 'education', 'certifications'];
               const sectionOrder = resumeData.config?.sectionOrder || defaultOrder;
 
-              return sectionOrder.map((sectionKey) => {
+              return sectionOrder.map((sectionKey: string) => {
                 switch (sectionKey) {
                   case 'summary':
                     return resumeData.summary ? (

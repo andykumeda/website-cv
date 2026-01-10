@@ -136,7 +136,15 @@
             "skills": "Technical Expertise",
             "education": "Education",
             "certifications": "Certifications",
-	    "projects": "Selected Projects"
-        }
+            "projects": "Selected Projects"
+        },
+        "sectionOrder": [
+            "summary",
+            "experience",
+            "projects",
+            "skills",
+            "certifications",
+            "education"
+        ]
     }
 }
