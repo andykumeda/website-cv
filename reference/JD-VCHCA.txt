@@ -1,0 +1,25 @@
+This is job description for current job
+
+Job Summary: We are seeking a highly skilled Senior Network Engineer with deep Cisco networking expertise to lead the modernization of our enterprise network. The role will focus on replacing legacy Cisco hardware with Catalyst 9000 series platforms and migrating from a traditional network infrastructure and ACS authentication to Cisco SD-Access architecture and Cisco ISE. This position requires strong technical leadership, design expertise, and hands-on implementation skills.
+Key Responsibilities:
+	•	Lead the migration from legacy Cisco platforms to Catalyst 9K series switches across campus and data center environments.
+	•	Design, configure, and deploy Cisco SD-Access to replace existing Cisco Identity Services Engine (ISE) for network access control.
+	•	Perform detailed network assessments, documentation, and upgrade planning.
+	•	Configure and optimize core, distribution, and access layer switching using advanced routing and switching protocols (OSPF, BGP, EIGRP, ISIS, VLANs, VXLAN).
+	•	Implement automation where possible to streamline configuration and deployment processes.
+	•	Troubleshoot complex network issues across LAN, WAN, and wireless infrastructure.
+	•	Collaborate with cross-functional IT teams to ensure minimal disruption during migrations.
+	•	Maintain compliance with security and operational best practices.
+Qualifications:
+	•	CCNA certification required (CCNP or CCIE preferred).
+	•	Proven experience in enterprise-level Cisco network design, deployment, and migration projects.
+	•	Hands-on expertise with Cisco Catalyst 9000 series switches, Cisco Catalyst Center, Cisco ISE and SD-Access.
+	•	Strong understanding of Layer 2 and Layer 3 technologies, VLAN segmentation, and QoS policies.
+	•	Experience with network security integration and access control policies.
+	•	Familiarity with automation tools (Ansible, Python, etc.) a plus.
+	•	Excellent troubleshooting, documentation, and communication skills.
+Preferred Experience:
+	•	Experience in a healthcare, hospital or 24x7 critical environment.
+	•	Large-scale network refresh or upgrade projects.
+	•	SDN (Software Defined Networking) design and implementation.
+	•	Integration with wireless, security, and cloud networking environments.

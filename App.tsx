@@ -70,45 +70,72 @@ const App: React.FC = () => {
           </div>
         ) : (
           <div className="space-y-12 no-print animate-in fade-in slide-in-from-bottom-4 duration-500">
-            {/* Summary Section */}
-            <Summary
-              summary={resumeData.summary}
-              title={resumeData.config?.titles.summary || "Professional Summary"}
-            />
+            {/* Dynamic Section Rendering */}
+            {(() => {
+              const defaultOrder = ['summary', 'experience', 'projects', 'skills', 'education', 'certifications'];
+              const sectionOrder = resumeData.config?.sectionOrder || defaultOrder;
 
-            {/* Experience Section */}
-            <Experience
-              experience={resumeData.experience}
-              title={resumeData.config?.titles.experience || "Experience"}
-            />
+              return sectionOrder.map((sectionKey) => {
+                switch (sectionKey) {
+                  case 'summary':
+                    return resumeData.summary ? (
+                      <Summary
+                        key="summary"
+                        summary={resumeData.summary}
+                        title={resumeData.config?.titles?.summary || "Professional Summary"}
+                      />
+                    ) : null;
 
-            {/* Projects Section */}
-            <Projects
-              projects={resumeData.projects}
-              title={resumeData.config?.titles.projects || "Selected Project Highlights"}
-            />
+                  case 'experience':
+                    return resumeData.experience && resumeData.experience.length > 0 ? (
+                      <Experience
+                        key="experience"
+                        experience={resumeData.experience}
+                        title={resumeData.config?.titles?.experience || "Experience"}
+                      />
+                    ) : null;
 
-            {/* Grid for Skills and Education */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-              <div className="md:col-span-2 space-y-12">
-                <Skills
-                  skills={resumeData.skills}
-                  title={resumeData.config?.titles.skills || "Core Competencies"}
-                />
-                <Education
-                  education={resumeData.education}
-                  title={resumeData.config?.titles.education || "Education"}
-                />
-              </div>
+                  case 'projects':
+                    return resumeData.projects && resumeData.projects.length > 0 ? (
+                      <Projects
+                        key="projects"
+                        projects={resumeData.projects}
+                        title={resumeData.config?.titles?.projects || "Selected Project Highlights"}
+                      />
+                    ) : null;
 
-              {/* Sidebar items */}
-              <div className="space-y-8">
-                <Certifications
-                  certifications={resumeData.certifications}
-                  title={resumeData.config?.titles.certifications || "Certifications"}
-                />
-              </div>
-            </div>
+                  case 'skills':
+                    return resumeData.skills && resumeData.skills.length > 0 ? (
+                      <Skills
+                        key="skills"
+                        skills={resumeData.skills}
+                        title={resumeData.config?.titles?.skills || "Core Competencies"}
+                      />
+                    ) : null;
+
+                  case 'education':
+                    return resumeData.education ? (
+                      <Education
+                        key="education"
+                        education={resumeData.education}
+                        title={resumeData.config?.titles?.education || "Education"}
+                      />
+                    ) : null;
+
+                  case 'certifications':
+                    return resumeData.certifications && resumeData.certifications.length > 0 ? (
+                      <Certifications
+                        key="certifications"
+                        certifications={resumeData.certifications}
+                        title={resumeData.config?.titles?.certifications || "Certifications"}
+                      />
+                    ) : null;
+
+                  default:
+                    return null;
+                }
+              });
+            })()}
           </div>
         )}
 

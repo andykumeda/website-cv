@@ -1,0 +1,33 @@
+This is job description for new position
+
+
+Required:
+	•	10 years as a Network Engineer responsible for day to day tasks plus projects experience working in Enterprise size environments
+	•	Healthcare experience a huge plus
+	•	Hands-on configuration of Cisco Routers, Switches etc.
+Qualifications:
+	•	Ten plus years of experience as a Network Engineer in a complex multi-platform, multi-protocol environment.
+	•	Experienced in planning, designing, and documenting Cisco equipped networks with 15,000 plus nodes with large domains and deployments
+	•	Experience with selection and strategic direction of network and security technologies and architecture
+	•	Perform concept and testing to network security design and solutions, vulnerability and penetration testing, and threat mitigation
+	•	Requires expertise in network monitoring, analysis, management, and configuration tools or expertise with server/systems monitoring and management tools
+	•	A packet level expertise in network traffic analysis
+	•	Strong project management and interpersonal skills; ability to deal effectively with diverse skill sets and personalities, provide strong team leadership, and work effectively as a team player
+	•	Requires expertise in all aspects of LAN and WAN operation, routing, topology, QoS, Multicast, network protocols, and MetroEthernet
+	•	In -depth knowledge and experience of the following: MPLS, NAC, VPN, remote access servers, security devices, firewalls, security protocols, IDS / IPS, NAT/PAT, ACS, Adaptive Authentication, SecurID, Radius/LDAP/TACACS, wireless
+Responsibilities
+	•	The Senior Cisco Network Engineer performs a broad variety of technical engineering support, design, architecture for monitoring and managing the Systems data infrastructure and systems
+	•	Develop and implement standards, policies and procedures, and works as a liaison with contractors and vendors to ensure the integrity and security of the network and infrastructure Serves as a mentor for Network Engineers and must be able to work independently to come up with network designs and assemble and guide implementation teams
+	•	Perform maintenance, and upgrades of networks, including servers, routers, switches, firewalls, remote access systems, and network management systems
+	•	Monitor network connectivity and ensure high quality data transmission
+	•	Provide technical support to various departments and users with regards to LAN/MAN/WAN/Security/Wireless and cloud-based networks
+	•	Manages day-to-day issues and maintains the enterprise Service Level Agreements (SLA)
+	•	Participates in the evaluation of new applications, determines their effect on the existing network and systems infrastructure and perimeter; recommends and may oversee any necessary operational or security enhancements
+	•	Coordinates contracted network penetrations to validate security infrastructure and implement remediation recommendations
+	•	Works jointly with user project managers and other IT groups to successfully implement projects
+	•	Helps manage contractors and consultants performing security and network related projects
+	•	Participates or collaborates in policy creation, performing periodic security reviews of existing information systems, and assisting in the requirements and solution definition process for new Company’s information systems
+	•	Participates in the design, implementation, maintenance, and modification of perimeter and network security devices and/or systems
+	•	Accountable for reviewing requirements, development of network standards, and securing the company’s Data Networks infrastructure including but not limited to the Network Perimeter, Remotes Access, Main Campus, WAN, leased spaced or owned, Data Center, wired and wireless environments
+	•	Key responsibility for the identification and resolution of hardware and software technical problems and malfunctions related to networks
+	•	Promotes governance and compliance with security standards, policies and procedures as well as maintain the network security infrastructure with respects to functionality, performance, scalability, process, and reliability

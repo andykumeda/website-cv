@@ -1,0 +1,254 @@
+{
+  "basics": {
+    "label": "Network Architect",
+    "email": "andy@kumeda.com",
+    "phone": "(310) 493-1793",
+    "website": "https://andykumeda.com",
+    "name": "Andy Kumeda",
+    "summary": "As an engineering and project management professional with over 25 years of hands-on technology experience, I am adept at operating across various hardware and software platforms. I excel in identifying and mitigating complex technology and business challenges, providing timely solutions while working within tight timelines and budgetary constraints. With a proven track record of success, I have designed and implemented large-scale enterprise server and networking infrastructures, providing both scalability and redundancy across multiple data center locations.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "LinkedIn",
+        "url": "https://www.linkedin.com/in/andykumeda/"
+      },
+      {
+        "network": "GitHub",
+        "username": "andykumeda",
+        "url": "https://github.com/andykumeda"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Delta9 Technology, LLC",
+      "position": "Principal Consultant",
+      "startDate": "2017-01-03",
+      "endDate": "present",
+      "summary": "",
+      "highlights": [
+        "Successfully executed network architecture designs, incorporating IPS/IDS, firewall, and VPN appliances that adhered to FBI CJIS policies and FIPS 140-2 data encryption requirements, for local law enforcement agencies.",
+        "Played a pivotal role in identifying, protecting, and managing corporate assets by monitoring and responding to security incidents in line with organizational policies and procedures.",
+        "Designed and established critical business requirements for high-tech startups, meeting aggressive budget and timeline goals.",
+        "Instituted a real-time application and infrastructure monitoring and alerting framework for a large multimedia and entertainment corporation, boosting operational efficiency and minimizing downtime.",
+        "Delivered high-availability storage area networks and VM platform design development and procurement reports for multiple universities and outreach centers spanning across multiple campuses.",
+        "Devised comprehensive system and network specifications, integration, project management, and test plans for mergers and acquisitions, streamlining the entire process and ensuring seamless transitions."
+      ]
+    },
+    {
+      "company": "DexYP",
+      "position": "Architect",
+      "startDate": "2015-01-03",
+      "endDate": "2017-12-31",
+      "summary": "",
+      "highlights": [
+        "Collaborated effectively with all stakeholders to implement comprehensive threat detection and prevention strategies, incident response plans, forensic analysis, and data loss prevention measures.",
+        "Designed and produced innovative enterprise solutions involving WAN/LAN, WLAN, Data Analytics, Security, and Virtual (e.g., NFV, SDN) technologies, developing automation rules and management policies to streamline processes and boost efficiency.",
+        "Worked closely with the executive team to conduct risk assessments and develop business continuity plans to ensure compliance with SOX and PCI requirements.",
+        "Collaborated with internal customers and corporate leadership to analyze, research, and implement enterprise-wide network and security architecture solutions that aligned with business objectives and goals.",
+        "Designed and developed a custom open-source DCIM application that integrated internal infrastructure and application databases, enabling accurate inventory and physical location tracking across multiple data centers.",
+        "Provided expert guidance to ensure emerging technologies and innovative ideas were aligned with the enterprise's operational and strategic goals, helping to drive overall success and growth.",
+        "As a technology liaison leader, facilitated collaboration and integration of impactful and advanced technical solutions to drive enterprise-wide transformation and success."
+      ]
+    },
+    {
+      "company": "YP",
+      "position": "Executive Director, Network & Telecom",
+      "startDate": "2012-01-03",
+      "endDate": "2015-12-31",
+      "summary": "",
+      "highlights": [
+        "Reviewed the performance of network and telephony resources to determine operating costs, productivity levels, and necessary upgrades, ensuring optimal use of resources while minimizing expenses.",
+        "Planned and executed business requirements, managed projects, and allocated resources effectively for network and telephony infrastructures, driving successful outcomes and meeting project goals and objectives.",
+        "Defined and communicated project milestones, service level agreements, and resource allocation to all relevant stakeholders, including the executive team, department leads, support staff, and end-users, ensuring everyone was aligned with project objectives and timelines."
+      ]
+    },
+    {
+      "company": "AT&T Interactive",
+      "position": "Associate Director, Voice & Data",
+      "startDate": "2009-01-03",
+      "endDate": "2012-12-31",
+      "summary": "",
+      "highlights": [
+        "Presented compelling business case justifications and conducted thorough cost/benefit analyses for various operations spending and initiatives, ensuring informed decision-making by the executive team.",
+        "Conducted benchmarking and analysis of the telephony and networking infrastructures to determine operating costs, productivity levels, and upgrade requirements, enabling informed resource allocation and strategic planning.",
+        "Designed and implemented large-scale multi-vendor data and voice networks across multiple data centers, ensuring robust and scalable infrastructures that met business requirements and goals.",
+        "Built and/or expanded six Tier 4 high-density data centers within the allocated budget and timeline, demonstrating strong project management skills and a deep understanding of data center technologies and requirements."
+      ]
+    },
+    {
+      "company": "Yellowpages.com | AT&T",
+      "position": "Manager, Network Operations",
+      "startDate": "2007-01-03",
+      "endDate": "2009-12-31",
+      "summary": "",
+      "highlights": [
+        "Provided oversight for all network operations, remote communications, wide and local area networks within multiple data centers, ensuring reliable and secure network connectivity across the enterprise.",
+        "Maintained and managed operational metrics, goals, and project timelines, providing visibility and transparency into network performance and project progress to relevant stakeholders.",
+        "Ensured high availability and full redundancy for all network infrastructures to achieve 99.9% uptime, minimizing downtime and maintaining business continuity.",
+        "Managed and delivered large-scale projects utilizing technical analysis, data network planning, engineering, and global infrastructure design experience, achieving project success and delivering value to the organization."
+      ]
+    },
+    {
+      "company": "Curesearch | National Childhood Cancer Foundation",
+      "position": "Director, Information Technology",
+      "startDate": "2004-01-03",
+      "endDate": "2007-12-31",
+      "summary": "",
+      "highlights": [
+        "Provided strategic oversight for infrastructure and data operations, ensuring alignment with the business and scientific objectives of the organization.",
+        "Formulated and deployed long-term strategic plans for acquiring and enabling efficient and cost-effective information processing and communication technologies, ensuring that technology investments were aligned with organizational goals and priorities.",
+        "Directed research on potential technology solutions and implementations in support of new initiatives, opportunities, and procurement efforts, providing informed recommendations to the executive team and relevant stakeholders."
+      ]
+    },
+    {
+      "company": "Yahoo! | Overture Services | Goto.com",
+      "position": "Senior Network Engineer",
+      "startDate": "2001-01-03",
+      "endDate": "2004-12-31",
+      "summary": "",
+      "highlights": [
+        "Designed, integrated, and implemented networks and data centers across twelve countries, incorporating sales and customer service resources and production web-searching facilities, to enable efficient and scalable operations in multiple regions.",
+        "Led the technology mergers and acquisitions migration and integration of FAST and AltaVista, ensuring seamless transitions and minimal disruption to operations.",
+        "Collaborated with senior engineering team leads and executive management to develop technology and business roadmaps, providing efficient, scalable, cost-effective, and fault-tolerant network and systems infrastructures.",
+        "Worked with project managers and internal customers to define proper deliverables, communicate expectations, and manage risks, ensuring timely delivery of milestones and objectives."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "California State University, Long Beach",
+      "startDate": "1986",
+      "endDate": "1992",
+      "area": "Computer Science and Engineering",
+      "studyType": "BS"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud",
+      "level": "",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Digital Ocean",
+        "CloudFlare"
+      ]
+    },
+    {
+      "name": "Network Management",
+      "level": "",
+      "keywords": [
+        "Solarwinds Orion",
+        "ManageEngine OpManager",
+        "Zabbix"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": [
+        "Ansible | Terraform",
+        "Github | git",
+        "Docker | Vagrant | Multipass"
+      ]
+    },
+    {
+      "name": "Collaboration | Project Management",
+      "level": "",
+      "keywords": [
+        "Asana",
+        "Notion",
+        "Trello",
+        "Smartsheet",
+        "Jira | Confluence",
+        "Kanban | Scrum"
+      ]
+    },
+    {
+      "name": "Security",
+      "level": "",
+      "keywords": [
+        "Fortigate",
+        "Cisco ASA",
+        "Rapid7"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Python",
+        "Javascript",
+        "PHP"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Cisco Certified Internetwork Expert (CCIE #3406)",
+      "date": "1997",
+      "awarder": "Cisco Systems",
+      "summary": "CCIE Routing & Switching, Written & Lab"
+    },
+    {
+      "title": "Cisco Certified Internetwork Expert (CCIE) Re-certification",
+      "date": "",
+      "awarder": "Cisco Systems",
+      "summary": "Security (2001), IP (2003), Routing & Switching (2004,2007), VoIP (2009), Service Provider (2011), Data Center (2015)"
+    },
+    {
+      "title": "AT&T Service Excellence Award",
+      "date": "2011",
+      "awarder": "AT&T",
+      "summary": "IPV6 Implementation"
+    },
+    {
+      "title": "METRC Validated Software Provider",
+      "date": "2019",
+      "awarder": "METRC",
+      "summary": "CA Department of Food & Agriculture | CA Department of Public Health"
+    },
+    {
+      "title": "Certified Enterprise Blockchain Professional (CEBP)",
+      "date": "2021",
+      "awarder": "101 Blockchains",
+      "summary": "101 Blockchains"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Art & Music",
+      "keywords": [
+        "DJing",
+        "Vinyl Records",
+        "Generative Art",
+        "Photography"
+      ]
+    },
+    {
+      "name": "Activities",
+      "keywords": [
+        "Long Distance Running",
+        "Traveling",
+        "Camping | Hiking"
+      ]
+    },
+    {
+      "name": "Beverages",
+      "keywords": [
+        "Coffee Roasting",
+        "Craft Beer",
+        "Wine Tasting"
+      ]
+    },
+    {
+      "name": "Technology",
+      "keywords": [
+        "Web3",
+        "AI | LLM",
+        "Blockchain | Smart Contracts"
+      ]
+    }
+  ]
+}

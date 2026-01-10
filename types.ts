@@ -15,39 +15,40 @@ export interface ResumeData {
     linkedin: string;
     github: string;
   };
-  summary: string;
-  experience: {
+  summary?: string;
+  experience?: {
     title: string;
     company: string;
     date: string;
     bullets: string[];
   }[];
-  skills: {
+  skills?: {
     cat: string;
     items: string;
   }[];
-  education: {
+  education?: {
     degree: string;
     school: string;
   };
-  certifications: {
+  certifications?: {
     title: string;
     subtitle: string;
     color: string;
   }[];
-  projects: {
+  projects?: {
     title: string;
     description: string;
   }[];
   config?: {
-    titles: {
-      summary: string;
-      experience: string;
-      skills: string;
-      education: string;
-      certifications: string;
-      projects: string;
+    titles?: {
+      summary?: string;
+      experience?: string;
+      skills?: string;
+      education?: string;
+      certifications?: string;
+      projects?: string;
     };
+    sectionOrder?: string[];
   };
 }
 
