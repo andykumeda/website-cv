@@ -51,7 +51,7 @@ export const Hero: React.FC<HeroProps> = ({ profile }) => {
                     </a>
                     <a href={`mailto:${profile.email}`} className="flex items-center gap-2 text-slate-500 hover:text-blue-700 transition-colors font-semibold group">
                         <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                        <span>{profile.email}</span>
+                        <span>Email</span>
                     </a>
                 </div>
             </div>
