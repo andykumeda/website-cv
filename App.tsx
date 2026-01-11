@@ -180,23 +180,22 @@ const App: React.FC = () => {
               </div>
             </section>
 
-            <div className="grid grid-cols-2 gap-8">
-              <section>
-                <h2 className="text-lg font-bold uppercase border-b-2 border-slate-900 mb-3 tracking-widest">Education</h2>
-                <h3 className="font-bold text-sm">{resumeData.education.degree}</h3>
-                <p className="text-xs text-slate-600 font-bold">{resumeData.education.school}</p>
-              </section>
-              <section>
-                <h2 className="text-lg font-bold uppercase border-b-2 border-slate-900 mb-3 tracking-widest">Expertise</h2>
-                <ul className="text-xs text-slate-800 font-bold leading-relaxed list-none">
-                  {resumeData.skills.map(s => (
-                    <li key={s.cat}>
-                      <span className="text-slate-500">{s.cat}:</span> {s.items}
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            </div>
+            <section>
+              <h2 className="text-xl font-bold uppercase border-b-2 border-slate-900 mb-3 tracking-widest">Technical Expertise</h2>
+              <ul className="text-sm list-disc list-inside text-slate-800 space-y-1 pl-2">
+                {resumeData.skills?.map(s => (
+                  <li key={s.cat}>
+                    <span className="font-bold">{s.cat}:</span> {s.items}
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-bold uppercase border-b-2 border-slate-900 mb-3 tracking-widest">Education</h2>
+              <h3 className="font-bold text-sm">{resumeData.education?.degree}</h3>
+              <p className="text-xs text-slate-600 font-bold">{resumeData.education?.school}</p>
+            </section>
           </div>
         </div>
       </main>
