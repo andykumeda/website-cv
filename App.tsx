@@ -191,6 +191,20 @@ const App: React.FC = () => {
               </ul>
             </section>
 
+            {resumeData.certifications && resumeData.certifications.length > 0 && (
+              <section>
+                <h2 className="text-xl font-bold uppercase border-b-2 border-slate-900 mb-3 tracking-widest">Certifications</h2>
+                <div className="space-y-2">
+                  {resumeData.certifications.map((cert, idx) => (
+                    <div key={idx}>
+                      <h3 className="font-bold text-sm">{cert.title}</h3>
+                      <p className="text-xs text-slate-600 font-bold">{cert.subtitle}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
             <section>
               <h2 className="text-xl font-bold uppercase border-b-2 border-slate-900 mb-3 tracking-widest">Education</h2>
               <h3 className="font-bold text-sm">{resumeData.education?.degree}</h3>
