@@ -202,7 +202,7 @@ const App: React.FC = () => {
 
       <footer className="py-12 border-t border-slate-200 bg-white no-print">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <p className="text-slate-400 text-sm font-medium mb-6">{resumeData.profile.name} • Network Architecture Portfolio • 2025</p>
+          <p className="text-slate-400 text-sm font-medium mb-6">{resumeData.profile.name} • 2025</p>
           <div className="flex justify-center flex-wrap gap-8 text-slate-400">
             <a href={`https://${resumeData.profile.website}`} className="hover:text-blue-700 flex items-center gap-2 transition-colors font-medium"><Globe className="w-4 h-4" /> {resumeData.profile.website}</a>
             <a href={`tel:${resumeData.profile.phone.replace(/\D/g, '')}`} className="hover:text-blue-700 flex items-center gap-2 transition-colors font-medium"><Phone className="w-4 h-4" /> {resumeData.profile.phone}</a>
