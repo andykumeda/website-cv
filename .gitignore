@@ -13,6 +13,9 @@ dist-ssr
 *.local
 .env*
 
+# Nginx configs (server-specific)
+nginx-*.conf
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
