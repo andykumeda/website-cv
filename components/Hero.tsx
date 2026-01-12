@@ -33,7 +33,10 @@ export const Hero: React.FC<HeroProps> = ({ profile }) => {
                     </div>
                 </div>
 
-                <h1 className="text-4xl sm:text-6xl font-serif text-slate-900 mb-4 tracking-tight">{profile.name}</h1>
+                <div className="flex items-center justify-center gap-4 mb-4">
+                    <h1 className="text-4xl sm:text-6xl font-serif text-slate-900 tracking-tight">{profile.name}</h1>
+                    <img src="ccie-logo.jpg" alt="CCIE Logo" className="w-16 h-16 sm:w-20 sm:h-20 object-contain" />
+                </div>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-2 mb-8">
                     <p className="text-xl text-slate-600 font-medium">{profile.title}</p>
                     <span className="hidden sm:inline text-slate-300">•</span>

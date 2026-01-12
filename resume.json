@@ -9,7 +9,7 @@
         "linkedin": "https://www.linkedin.com/in/andykumeda/",
         "github": "https://github.com/andykumeda"
     },
-    "summary": "Senior Network Architect with 30+ years designing and operating enterprise healthcare and high‑availability networks. Currently leading network modernization at Ventura County Health Care Agency, migrating legacy infrastructure to Catalyst and Nexus platforms. Expertise in Software‑Defined Access, Identity Services Engine, with a strong focus on clinical workflow continuity, security, and compliance. CCIE certified since 1997 with recertification across multiple technology tracks. ",
+    "summary": "Senior Network Architect with 30+ years designing and operating enterprise healthcare and high‑availability networks. Currently leading network modernization at Ventura County Health Care Agency, migrating legacy infrastructure to Catalyst and Nexus platforms. Expertise in Software‑Defined Access and Identity Services Engine, with a strong focus on clinical workflow continuity, security, and compliance. CCIE certified since 1997 with recertification across multiple technology tracks. ",
     "experience": [
         {
             "title": "Senior Network Engineer",
@@ -20,8 +20,7 @@
                 "Architecting migration from legacy Cisco platforms to Catalyst and Nexus 9000 series across campus and data center environments, reducing hardware footprint by 30% while improving performance and manageability.",
                 "Designed Software-Defined Access fabric with Catalyst Center and ISE for network access control, implementing micro-segmentation to achieve HIPAA compliance.",
                 "Built network automation using Ansible and Python for hundreds of devices, reducing configuration errors by 80% and cutting deployment time from 3 days to 2 hours.",
-                "Perform packet-level analysis using Wireshark to troubleshoot complex latency and connectivity issues impacting urgent-care systems, maintaining service levels for 24x7 clinical operations.",
-                "Lead network security assessments and vulnerability remediation initiatives, achieving 95% remediation rate within 90 days and improving security posture by 40%."
+                "Perform packet-level analysis using Wireshark to troubleshoot complex latency and connectivity issues impacting urgent-care systems, maintaining service levels for 24x7 clinical operations."
             ]
         },
         {
@@ -122,11 +121,6 @@
             "title": "CCIE #3406 (1997)",
             "subtitle": "Routing & Switching — Maintained through continuous recertification",
             "color": "blue"
-        },
-        {
-            "title": "Additional CCIE Tracks",
-            "subtitle": "Security, IP, VoIP, Service Provider, Data Center",
-            "color": "purple"
         }
     ],
     "config": {
