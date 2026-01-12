@@ -100,16 +100,14 @@
     ],
     "projects": [
         {
-            "title": "Healthcare Network Modernization",
-            "description": "Led enterprise-wide refresh to Catalyst and Nexus platforms across multiple sites, to a multi-fabric Software-Defined Access infrastructure. Enabled centralized policy controls and network segmentation using Catalyst Center and ISE to achieve regulatory compliance."
+            "title": "cisco-mcp-server",
+            "description": "A Model Context Protocol (MCP) server for Cisco network devices, enabling AI agents to interact with network infrastructure for automated discovery and management.",
+            "link": "https://github.com/andykumeda/cisco-mcp-server"
         },
         {
-            "title": "Zero-Trust Security Implementation",
-            "description": "Replaced legacy authentication infrastructure with Identity Services Engine and TrustSec policies for thousands of endpoints. Implemented role-based access and micro-segmentation separating clinical and administrative traffic, reducing security incidents by 60%."
-        },
-        {
-            "title": "Network Security Hardening & Compliance",
-            "description": "Coordinated penetration testing and vulnerability assessments, prioritized remediation of hundreds of findings, and integrated intrusion detection and prevention controls. Achieved 95% remediation rate within 90 days and improved security posture by 40%."
+            "title": "Project Placeholder",
+            "description": "Coming soon. A second project highlight will be added here.",
+            "link": ""
         }
     ],
     "education": {

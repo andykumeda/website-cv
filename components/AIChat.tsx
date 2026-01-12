@@ -3,11 +3,13 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, Send, X, User, Bot, Sparkles } from 'lucide-react';
 import { geminiService } from '../services/geminiService';
 import { Message } from '../types';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 const AIChat: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'model', text: "Hi! I'm Andy's AI assistant. I can help answer questions about his 25+ years of networking experience, CCIE certification, or specific technical skills." }
+    { role: 'model', text: "Hi! I'm Andy's AI assistant. I can help answer questions about his 30+ years of networking experience, CCIE certification, or specific technical skills." }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -32,7 +34,11 @@ const AIChat: React.FC = () => {
 
     try {
       // Map history for Gemini
-      const history = messages.map(m => ({
+      // Exclude the initial greeting from the history sent to the API
+      // as Gemini requires the first message to be from the user
+      const historyMessages = messages.slice(1);
+
+      const history = historyMessages.map(m => ({
         role: m.role === 'user' ? 'user' as const : 'model' as const,
         parts: [{ text: m.text }]
       }));
@@ -85,7 +91,15 @@ const AIChat: React.FC = () => {
                     {m.role === 'user' ? <User className="w-4 h-4" /> : <Bot className="w-4 h-4" />}
                   </div>
                   <div className={`p-3 rounded-2xl text-sm shadow-sm ${m.role === 'user' ? 'bg-blue-700 text-white rounded-tr-none' : 'bg-white text-slate-700 border border-slate-100 rounded-tl-none'}`}>
-                    {m.text}
+                    {m.role === 'user' ? (
+                      m.text
+                    ) : (
+                      <div className="prose prose-sm max-w-none prose-p:leading-snug prose-li:my-0">
+                        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                          {m.text}
+                        </ReactMarkdown>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>

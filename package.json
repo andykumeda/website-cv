@@ -10,13 +10,16 @@
     "refresh": "touch resume.json App.tsx"
   },
   "dependencies": {
-    "@google/genai": "^1.35.0",
+    "@google/generative-ai": "^0.24.1",
     "lucide-react": "^0.562.0",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^22.14.0",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",

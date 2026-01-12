@@ -38,6 +38,7 @@ export interface ResumeData {
   projects?: {
     title: string;
     description: string;
+    link?: string;
   }[];
   config?: {
     titles?: {
