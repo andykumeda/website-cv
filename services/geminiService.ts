@@ -16,7 +16,7 @@ export class GeminiService {
   private ai: GoogleGenAI | null = null;
 
   constructor() {
-    const apiKey = process.env.API_KEY || process.env.GEMINI_API_KEY;
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     if (apiKey) {
       this.ai = new GoogleGenAI({ apiKey });
     } else {
