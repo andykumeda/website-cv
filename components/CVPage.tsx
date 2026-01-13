@@ -51,14 +51,14 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
                         <span className="font-bold text-slate-900 dark:text-slate-100 hidden sm:inline tracking-tight">{resumeData.profile.name}</span>
                     </div>
 
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-2 sm:gap-4">
                         <ThemeToggle />
                         <div className="flex items-center bg-slate-100 dark:bg-slate-800 rounded-lg p-1 border border-slate-200 dark:border-slate-700">
                             {(['visual', 'markdown', 'json'] as const).map((mode) => (
                                 <button
                                     key={mode}
                                     onClick={() => setView(mode)}
-                                    className={`px-3 py-1.5 rounded-md text-xs font-semibold transition-all duration-200 ${view === mode
+                                    className={`px-2 sm:px-3 py-1.5 rounded-md text-[10px] sm:text-xs font-semibold transition-all duration-200 ${view === mode
                                         ? 'bg-white dark:bg-slate-600 text-blue-700 dark:text-blue-300 shadow-sm'
                                         : 'text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-300'
                                         }`}
@@ -67,13 +67,14 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
                                 </button>
                             ))}
                         </div>
-                        <div className="h-6 w-px bg-slate-200 dark:bg-slate-700 mx-2"></div>
+                        <div className="h-6 w-px bg-slate-200 dark:bg-slate-700 mx-1 sm:mx-2"></div>
                         <button
                             onClick={handlePrint}
-                            className="flex items-center gap-2 bg-blue-700 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-800 transition-all shadow-lg shadow-blue-200 hover:scale-[1.02] active:scale-95"
+                            className="flex items-center gap-2 bg-blue-700 text-white px-3 sm:px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-800 transition-all shadow-lg shadow-blue-200 hover:scale-[1.02] active:scale-95"
                         >
                             <Download className="w-4 h-4" />
-                            <span>Download PDF</span>
+                            <span className="hidden sm:inline">Download PDF</span>
+                            <span className="inline sm:hidden">PDF</span>
                         </button>
                     </div>
                 </div>
