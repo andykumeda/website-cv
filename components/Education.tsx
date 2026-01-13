@@ -17,8 +17,8 @@ export const Education: React.FC<EducationProps> = ({ education, title }) => {
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">{title}</h2>
             </div>
             <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm hover:border-amber-200 dark:hover:border-amber-900/50 transition-colors">
-                <h3 className="font-bold text-slate-900 dark:text-slate-100">{education.degree}</h3>
-                <p className="text-slate-600 dark:text-slate-400 font-medium">{education.school}</p>
+                <h3 className="text-slate-900 dark:text-slate-100">{education.degree}</h3>
+                <p className="text-slate-600 dark:text-slate-400">{education.school}</p>
             </div>
         </section>
     );

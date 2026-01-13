@@ -36,7 +36,7 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
     };
 
     return (
-        <div className="min-h-screen selection:bg-blue-100 selection:text-blue-900 dark:bg-slate-950 dark:selection:bg-blue-900 dark:selection:text-blue-100 text-slate-900 dark:text-slate-100">
+        <div className="min-h-screen selection:bg-blue-100 selection:text-blue-900 dark:bg-slate-950 dark:selection:bg-blue-900 dark:selection:text-blue-100 text-slate-900 dark:text-slate-100 print:bg-white print:text-black">
             {/* Navigation */}
             <nav className="sticky top-0 z-40 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 no-print">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
@@ -188,7 +188,7 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
 
                 {/* Print Only Content (Optimized for PDF) */}
                 <div className="print-only text-slate-900 bg-white">
-                    <div className="flex justify-between items-start border-b-2 border-slate-900 pb-3 mb-4">
+                    <div className="flex justify-between items-start border-b-2 border-slate-900 pb-2 mb-2">
                         <div>
                             <h1 className="text-3xl font-bold mb-0 tracking-tight">{resumeData.profile.name.toUpperCase()}</h1>
                             <p className="text-base text-slate-600 font-bold uppercase tracking-tight">{resumeData.profile.title}</p>
@@ -209,8 +209,8 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
                         </section>
 
                         <section>
-                            <h2 className="text-sm font-bold uppercase border-b border-slate-900 mb-2 tracking-wide mt-3">Experience</h2>
-                            <div className="space-y-3">
+                            <h2 className="text-sm font-bold uppercase border-b border-slate-900 mb-2 tracking-wide mt-2">Experience</h2>
+                            <div className="space-y-2">
                                 {resumeData.experience.map((job, idx) => (
                                     <div key={idx}>
                                         <div className="flex justify-between items-baseline mb-0">
@@ -228,7 +228,7 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
                         </section>
 
                         <section>
-                            <h2 className="text-sm font-bold uppercase border-b border-slate-900 mb-2 tracking-wide mt-3">Technical Expertise</h2>
+                            <h2 className="text-sm font-bold uppercase border-b border-slate-900 mb-2 tracking-wide mt-2">Technical Expertise</h2>
                             <ul className="text-xs list-disc list-inside text-slate-800 space-y-0 pl-1">
                                 {resumeData.skills?.map(s => (
                                     <li key={s.cat} className="leading-snug">
@@ -240,12 +240,11 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
 
                         {resumeData.certifications && resumeData.certifications.length > 0 && (
                             <section>
-                                <h2 className="text-sm font-bold uppercase border-b border-slate-900 mb-2 tracking-wide mt-3">Certifications</h2>
+                                <h2 className="text-sm font-bold uppercase border-b border-slate-900 mb-2 tracking-wide mt-2">Certifications</h2>
                                 <div className="space-y-1">
                                     {resumeData.certifications.map((cert, idx) => (
                                         <div key={idx}>
-                                            <h3 className="font-bold text-xs leading-tight">{cert.title}</h3>
-                                            <p className="text-xs text-slate-600 font-semibold leading-tight">{cert.subtitle}</p>
+                                            <p className="text-xs leading-snug"><span className="font-bold">{cert.title}</span> <span className="text-slate-600 font-semibold">| {cert.subtitle}</span></p>
                                         </div>
                                     ))}
                                 </div>
@@ -253,9 +252,8 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
                         )}
 
                         <section>
-                            <h2 className="text-sm font-bold uppercase border-b border-slate-900 mb-2 tracking-wide mt-3">Education</h2>
-                            <h3 className="font-bold text-xs">{resumeData.education?.degree}</h3>
-                            <p className="text-xs text-slate-600 font-semibold">{resumeData.education?.school}</p>
+                            <h2 className="text-sm font-bold uppercase border-b border-slate-900 mb-2 tracking-wide mt-2">Education</h2>
+                            <p className="text-xs">{resumeData.education?.degree} <span className="text-slate-600">| {resumeData.education?.school}</span></p>
                         </section>
                     </div>
                 </div>
