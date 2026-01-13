@@ -105,4 +105,4 @@ The site uses two nginx configurations:
 - `nginx-kumeda.com.conf` - Serves the landing page at the root
 - `nginx-cv.kumeda.com.conf` - Serves the CV at cv.kumeda.com
 
-See `NGINX_SETUP.md` for detailed setup instructions.
+
