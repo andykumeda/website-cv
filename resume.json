@@ -113,8 +113,12 @@
             "title": "Ansible Playbooks",
             "description": "Some examples of Ansible playbooks used in a production Cisco Catalyst and Nexus environments",
             "link": "https://github.com/andykumeda/cisco-ztp"
+        },
+        {
+            "title": "Personal Website+",
+            "description": "The start of my personal website, along with this CV page. Resume content is entered in JSON format, and also includes an AI chatbot (powered by Google Gemini).",
+            "link": "https://github.com/andykumeda/website-cv"
         }
-
     ],
     "education": {
         "degree": "BS, Computer Science & Engineering",
