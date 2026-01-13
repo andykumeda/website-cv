@@ -3,7 +3,7 @@ import { ShieldCheck } from 'lucide-react';
 import { ResumeData } from '../types';
 
 interface SkillsProps {
-    skills: ResumeData['skills'];
+    skills: NonNullable<ResumeData['skills']>;
     title: string;
 }
 
@@ -11,16 +11,16 @@ export const Skills: React.FC<SkillsProps> = ({ skills, title }) => {
     return (
         <section>
             <div className="flex items-center gap-3 mb-6">
-                <div className="p-2.5 bg-emerald-100 text-emerald-700 rounded-xl shadow-sm">
+                <div className="p-2.5 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 rounded-xl shadow-sm">
                     <ShieldCheck className="w-6 h-6" />
                 </div>
-                <h2 className="text-2xl font-bold text-slate-900">{title}</h2>
+                <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-100">{title}</h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {skills.map((skill, idx) => (
-                    <div key={idx} className="p-4 bg-white border border-slate-200 rounded-2xl hover:border-emerald-200 transition-colors shadow-sm">
-                        <h4 className="font-bold text-[10px] text-slate-400 uppercase tracking-widest mb-2">{skill.cat}</h4>
-                        <p className="text-slate-700 text-sm font-semibold">{skill.items}</p>
+                    <div key={idx} className="p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl hover:border-emerald-200 dark:hover:border-emerald-900/50 transition-colors shadow-sm">
+                        <h4 className="font-bold text-[10px] text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-2">{skill.cat}</h4>
+                        <p className="text-slate-700 dark:text-slate-300 text-sm font-semibold">{skill.items}</p>
                     </div>
                 ))}
             </div>

@@ -100,15 +100,21 @@
     ],
     "projects": [
         {
-            "title": "cisco-mcp-server",
+            "title": "Cisco MCP Server",
             "description": "A Model Context Protocol (MCP) server for Cisco network devices, enabling AI agents to interact with network infrastructure for automated discovery and management.",
             "link": "https://github.com/andykumeda/cisco-mcp-server"
         },
         {
-            "title": "Project Placeholder",
-            "description": "Coming soon. A second project highlight will be added here.",
-            "link": ""
+            "title": "Cisco Zero Touch Protocol",
+            "description": "A flexible and robust solution for automatically provisioning Cisco Catalyst 9000 series switches using a Python script.",
+            "link": "https://github.com/andykumeda/cisco-ztp"
+        },
+        {
+            "title": "Ansible Playbooks",
+            "description": "Some examples of Ansible playbooks used in a production Cisco Catalyst and Nexus environments",
+            "link": "https://github.com/andykumeda/cisco-ztp"
         }
+
     ],
     "education": {
         "degree": "BS, Computer Science & Engineering",

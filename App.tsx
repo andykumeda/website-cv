@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import resumeData from './resume.json';
 import { LandingPage } from './components/LandingPage';
 import { CVPage } from './components/CVPage';
+import { ThemeProvider } from './services/ThemeContext';
 
 const App: React.FC = () => {
   const [currentPath, setCurrentPath] = useState<string>(window.location.pathname);
@@ -33,15 +34,17 @@ const App: React.FC = () => {
   const isOnCVSubdomain = window.location.hostname === 'cv.kumeda.com';
   const isCV = currentPath === '/cv' || currentPath.startsWith('/cv/') || (isOnCVSubdomain && currentPath === '/');
 
-  if (isCV) {
-    return <CVPage onNavigateHome={navigateToHome} />;
-  }
-
   return (
-    <LandingPage
-      onNavigateToCV={navigateToCV}
-      profileData={resumeData.profile}
-    />
+    <ThemeProvider>
+      {isCV ? (
+        <CVPage onNavigateHome={navigateToHome} />
+      ) : (
+        <LandingPage
+          onNavigateToCV={navigateToCV}
+          profileData={resumeData.profile}
+        />
+      )}
+    </ThemeProvider>
   );
 };
 

@@ -4,6 +4,7 @@ import resumeData from '../resume.json';
 import { generateMarkdown } from '../utils/markdownGenerator';
 import { renderLinks } from '../utils/renderLinks';
 import AIChat from './AIChat';
+import { ThemeToggle } from './ThemeToggle';
 import { Hero } from './Hero';
 import { Experience } from './Experience';
 import { Skills } from './Skills';
@@ -17,7 +18,7 @@ interface CVPageProps {
 }
 
 export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
-    const [view, setView] = useState<'visual' | 'markdown'>('visual');
+    const [view, setView] = useState<'visual' | 'markdown' | 'json'>('visual');
     const markdownContent = generateMarkdown(resumeData as any);
 
     const handlePrint = () => {
@@ -35,9 +36,9 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
     };
 
     return (
-        <div className="min-h-screen selection:bg-blue-100 selection:text-blue-900">
+        <div className="min-h-screen selection:bg-blue-100 selection:text-blue-900 dark:bg-slate-950 dark:selection:bg-blue-900 dark:selection:text-blue-100 text-slate-900 dark:text-slate-100">
             {/* Navigation */}
-            <nav className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200 no-print">
+            <nav className="sticky top-0 z-40 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 no-print">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
                     <div className="flex items-center gap-2">
                         <div
@@ -47,17 +48,26 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
                         >
                             AK
                         </div>
-                        <span className="font-bold text-slate-900 hidden sm:inline tracking-tight">{resumeData.profile.name}</span>
+                        <span className="font-bold text-slate-900 dark:text-slate-100 hidden sm:inline tracking-tight">{resumeData.profile.name}</span>
                     </div>
 
                     <div className="flex items-center gap-4">
-                        <button
-                            onClick={() => setView(view === 'visual' ? 'markdown' : 'visual')}
-                            className="text-sm font-medium text-slate-600 hover:text-blue-700 transition-colors px-3 py-1 rounded-full hover:bg-blue-50"
-                        >
-                            {view === 'visual' ? 'View Raw Markdown' : 'View Visual Layout'}
-                        </button>
-                        <div className="h-6 w-px bg-slate-200 mx-2"></div>
+                        <ThemeToggle />
+                        <div className="flex items-center bg-slate-100 dark:bg-slate-800 rounded-lg p-1 border border-slate-200 dark:border-slate-700">
+                            {(['visual', 'markdown', 'json'] as const).map((mode) => (
+                                <button
+                                    key={mode}
+                                    onClick={() => setView(mode)}
+                                    className={`px-3 py-1.5 rounded-md text-xs font-semibold transition-all duration-200 ${view === mode
+                                        ? 'bg-white dark:bg-slate-600 text-blue-700 dark:text-blue-300 shadow-sm'
+                                        : 'text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-300'
+                                        }`}
+                                >
+                                    {mode === 'json' ? 'JSON' : mode.charAt(0).toUpperCase() + mode.slice(1)}
+                                </button>
+                            ))}
+                        </div>
+                        <div className="h-6 w-px bg-slate-200 dark:bg-slate-700 mx-2"></div>
                         <button
                             onClick={handlePrint}
                             className="flex items-center gap-2 bg-blue-700 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-800 transition-all shadow-lg shadow-blue-200 hover:scale-[1.02] active:scale-95"
@@ -75,20 +85,37 @@ export const CVPage: React.FC<CVPageProps> = ({ onNavigateHome }) => {
             {/* Main Content Area */}
             <main className="max-w-5xl mx-auto px-4 pb-24 sm:px-6">
 
-                {view === 'markdown' ? (
-                    <div className="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm no-print animate-in fade-in zoom-in-95 duration-300">
+                {view === 'markdown' && (
+                    <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-sm no-print animate-in fade-in zoom-in-95 duration-300">
                         <div className="flex items-center justify-between mb-6">
-                            <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
+                            <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
                                 <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></div>
                                 Resume Source (Markdown)
                             </h2>
-                            <span className="text-xs font-mono bg-slate-100 px-3 py-1.5 rounded-lg text-slate-500 border border-slate-200">resume.json (generated)</span>
+                            <span className="text-xs font-mono bg-slate-100 dark:bg-slate-800 px-3 py-1.5 rounded-lg text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700">resume.json (generated)</span>
                         </div>
-                        <pre className="whitespace-pre-wrap font-mono text-sm text-slate-700 bg-slate-50 p-6 rounded-2xl overflow-x-auto border border-slate-100 leading-relaxed">
+                        <pre className="whitespace-pre-wrap font-mono text-sm text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-950 p-6 rounded-2xl overflow-x-auto border border-slate-100 dark:border-slate-800 leading-relaxed">
                             {markdownContent.trim()}
                         </pre>
                     </div>
-                ) : (
+                )}
+
+                {view === 'json' && (
+                    <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 shadow-sm no-print animate-in fade-in zoom-in-95 duration-300">
+                        <div className="flex items-center justify-between mb-6">
+                            <h2 className="text-xl font-bold text-slate-900 dark:text-slate-100 flex items-center gap-2">
+                                <div className="w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
+                                Resume Source (JSON)
+                            </h2>
+                            <span className="text-xs font-mono bg-slate-100 dark:bg-slate-800 px-3 py-1.5 rounded-lg text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700">resume.json (raw)</span>
+                        </div>
+                        <pre className="whitespace-pre-wrap font-mono text-sm text-slate-700 dark:text-slate-300 bg-slate-50 dark:bg-slate-950 p-6 rounded-2xl overflow-x-auto border border-slate-100 dark:border-slate-800 leading-relaxed">
+                            {JSON.stringify(resumeData, null, 2)}
+                        </pre>
+                    </div>
+                )}
+
+                {view === 'visual' && (
                     <div className="space-y-12 no-print animate-in fade-in slide-in-from-bottom-4 duration-500">
                         {/* Dynamic Section Rendering */}
                         {(() => {

@@ -17,8 +17,12 @@ Features a clean landing page and a professional CV with AI-powered chat assista
 
 ### CV/Resume Page
 - **Single Source of Truth**: All content managed in `resume.json`
-- **Dual View**: Switch between polished "Visual Layout" and raw "Markdown View"
-- **AI Assistant**: Google Gemini-powered chat to answer questions about experience
+- **Dark Mode**: Fully supported dark/light themes with system preference detection and manual toggle
+- **Multi-Format View**: 
+    - **Visual Layout**: Professional, polished React rendering
+    - **Markdown View**: Raw markdown source code representation
+    - **JSON View**: Direct access to the underlying data structure
+- **AI Assistant**: Google Gemini-powered chat with floating callout bubble and context-aware answers
 - **Print Optimized**: Custom print styles for generating clean PDF resumes
 - **Component Architecture**: Modular React components for experience, skills, education, and projects
 
